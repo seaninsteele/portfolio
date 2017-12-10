@@ -37,7 +37,7 @@ header h1, header h2, header p {
 }
 
 header p {
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
 .headshot {
@@ -45,9 +45,11 @@ header p {
 }
 
 header img {
-	border-radius: 50%;
 	height: 15rem;
 	width: auto;
+	border: 3px solid #fff;
+	border-radius: 50%;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.5);
 }
 
 .links {
@@ -109,7 +111,13 @@ section.projects {
 }
 
 .project-item {
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 2px dotted #2E364C;
+}
+
+.project-item:last-child {
+	border-bottom: none;
 }
 
 footer {

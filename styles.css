@@ -66,12 +66,18 @@ header img {
 	text-transform: uppercase;
 	margin-right: 2rem;
 	padding: 1rem 2rem;
+	border: 1px solid white;
+}
+
+.links a.download:last-child {
+	margin-right: 0;
 }
 
 .links a.download:hover {
 	background: #fff;
 	color: #2E364C;
 	transition: all 0.5s ease-in;
+	border: 1px solid #2E364C;
 }
 
 .links .icons {
